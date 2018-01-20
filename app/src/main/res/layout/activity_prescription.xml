@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="net.a6te.lazycoder.doctorscafe.PrescriptionActivity">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:onClick="buttonClicked"
+        android:layout_gravity="center"
+        android:id="@+id/prescriptionImage"
+        android:src="@drawable/camera"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/doctorNameET"
+        android:hint="Doctor's Name"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/doctorDetails"
+        android:hint="About"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+
+
+</LinearLayout>

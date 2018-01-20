@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/update_Menu"
+        android:title="Update"
+        app:showAsAction="never"
+        android:orderInCategory="2">
+    </item>
+    <item
+        android:id="@+id/delete_Menu"
+        android:title="Delete"
+        app:showAsAction="never"
+        android:orderInCategory="3">
+    </item>
+    <item
+        android:id="@+id/home_Menu"
+        android:title="Home"
+        app:showAsAction="never"
+        android:orderInCategory="1">
+    </item>
+    <item
+        android:id="@+id/logout_Menu"
+        android:title="Logout"
+        app:showAsAction="never"
+        android:orderInCategory="4">
+    </item>
+</menu>
